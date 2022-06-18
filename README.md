@@ -4,6 +4,7 @@ Build a datamart for Renting Apartments and Bedrooms with SQL
 ### Presentation:
 https://www.youtube.com/watch?v=_BiPXAsskgE
 
+
 Database for Renting Apartments and Bedrooms
 Concept Phase: The Definition and Requirement Specification
 
