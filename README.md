@@ -74,3 +74,51 @@ marketplace.
 And many more info we can gET from the database.
 
 
+**Presentation
+
+Data Warehouse Development using MySQL
+This is the development of a data warehouse using MySQL as the database management system.
+
+In this ER diagram, there are three user groups:
+
+The green group represents hosts, including their properties, cities, and countries.
+
+The yellow group represents guests, who can make bookings, leave ratings, and write reviews.
+
+And finally, the marketplace group acts as a bridge between hosts and guests, managing bookings, payments, and paying out commissions to hosts after receiving payments from guests.
+
+Now, let’s explore the SQL code used in this data mart.
+
+Each table includes up to 20 attributes. For instance, the country table has country_id and country_name.
+The city table links to country via a foreign key country_id, while city_id serves as its primary key.
+
+The property_commission table records different commission rates for each property.
+Property_type defines whether a property is a hotel, guesthouse, homestay, vacation home, or apartment.
+
+The neighborhood table connects to the city table, which in turn connects to country.
+Using natural joins, we can retrieve the country name directly from a neighborhood.
+For example, neighborhoods in Berlin and Munich show the country as Germany.
+
+The property_host table lists the host’s name, contact information, and address.
+The property table includes commission ID, rating, size, room quantity, and property address.
+
+The facility table indicates available amenities like internet, parking, and swimming pools—1 means available, 0 means not.
+
+Then we have room_type, room, and guest tables, all linkable through natural joins.
+This powerful feature of MySQL allows insights across multiple tables.
+
+We can, for example, filter guests with ratings under 3 and low guest levels.
+
+The review tables help detect problem guests—if negative reviews come from trusted hosts, action can be taken.
+Guest IDs 4 and 6, for instance, may be flagged if multiple good hosts give consistently bad reviews.
+
+Cancellations, bookings, vouchers, and payments are also tracked.
+Patterns show low cancellation rates often correlate with higher booking volumes.
+
+Payment issues are tracked in the payment_status table, and inactive hosts can be identified by their activity status.
+
+This database also helps marketing teams target cities or countries where new hosts are needed.
+
+All of this is made possible by MySQL and structured data design.
+
+This concludes my presentation.
