@@ -74,9 +74,7 @@ marketplace.
 And many more info we can gET from the database.
 
 
-**Presentation
-
-Data Warehouse Development using MySQL
+### Data Warehouse Development using MySQL
 This is the development of a data warehouse using MySQL as the database management system.
 
 In this ER diagram, there are three user groups:
