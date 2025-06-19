@@ -2,7 +2,7 @@
 Build a datamart for Renting Apartments and Bedrooms with SQL
 
 ### Presentation:
-https://www.youtube.com/watch?v=_BiPXAsskgE
+https://youtu.be/ZEq-_trr3_s
 
 
 Database for Renting Apartments and Bedrooms
